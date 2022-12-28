@@ -1,7 +1,7 @@
-import React from 'react';
+import Layout from 'views/Layout/Layout';
 
 const Projects = () => {
-  return <div>Projects</div>;
+  return <Layout>Projects</Layout>;
 };
 
 export default Projects;

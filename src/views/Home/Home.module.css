@@ -77,15 +77,9 @@
   }
 
   .navLink {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: none;
-    width: 100px;
-    height: 100px;
     color: #000;
     background-color: rgb(231, 229, 229);
-    border-radius: 50%;
     transition: all 0.3s ease-out;
   }
 
