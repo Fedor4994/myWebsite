@@ -1,4 +1,6 @@
 import Logo from 'components/Logo';
+// import { Link } from 'react-router-dom';
+// import s from './Layout.module.css';
 
 const Layout = ({ children }) => {
   return (
