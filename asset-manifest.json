@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/myWebsite/static/css/main.f9e8a2ee.css",
-    "main.js": "/myWebsite/static/js/main.da44617a.js",
+    "main.css": "/myWebsite/static/css/main.cc37a39b.css",
+    "main.js": "/myWebsite/static/js/main.1f755b9a.js",
+    "static/media/imagefinder.png": "/myWebsite/static/media/imagefinder.bbed226ee39d8680fa3e.png",
+    "static/media/moviemania.png": "/myWebsite/static/media/moviemania.6c0d14bb581e3ca6e4c1.png",
+    "static/media/FIlmoteka.png": "/myWebsite/static/media/FIlmoteka.e6986e6906163d34c7c6.png",
+    "static/media/webstudio.png": "/myWebsite/static/media/webstudio.2d3e1112a00ad7cbef85.png",
+    "static/media/deliveryfood.png": "/myWebsite/static/media/deliveryfood.eb3586c772969ab9eda4.png",
+    "static/media/phonebook.png": "/myWebsite/static/media/phonebook.62e7a4a20ba94eee84cb.png",
     "static/media/avatar.jpeg": "/myWebsite/static/media/avatar.facd04ef8c917bbb0e1f.jpeg",
     "index.html": "/myWebsite/index.html",
-    "main.f9e8a2ee.css.map": "/myWebsite/static/css/main.f9e8a2ee.css.map",
-    "main.da44617a.js.map": "/myWebsite/static/js/main.da44617a.js.map"
+    "main.cc37a39b.css.map": "/myWebsite/static/css/main.cc37a39b.css.map",
+    "main.1f755b9a.js.map": "/myWebsite/static/js/main.1f755b9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9e8a2ee.css",
-    "static/js/main.da44617a.js"
+    "static/css/main.cc37a39b.css",
+    "static/js/main.1f755b9a.js"
   ]
 }
