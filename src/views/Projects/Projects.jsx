@@ -34,14 +34,14 @@ const Projects = () => {
             path="/projects/deliveryfood"
           />
           <Project
-            poster={imagefinder}
-            title="Image Finder"
-            path="/projects/imagefinder"
-          />
-          <Project
             poster={webstudio}
             title="Web Studio"
             path="/projects/webstudio"
+          />
+          <Project
+            poster={imagefinder}
+            title="Image Finder"
+            path="/projects/imagefinder"
           />
         </ul>
       </section>

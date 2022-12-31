@@ -63,3 +63,27 @@
   border-radius: 5px;
   width: 45%;
 }
+
+@media screen and (min-width: 1280px) {
+  .title {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .buttonWrapper {
+    width: 45%;
+
+    margin-bottom: 30px;
+  }
+
+  .profile {
+    padding: 20px 320px;
+  }
+
+  .techItem {
+    width: 15%;
+  }
+
+  .aboutTitle {
+    margin-bottom: 10px;
+  }
+}

@@ -177,16 +177,26 @@ const ProjectPage = ({ title }) => {
             </div>
             <b className={s.aboutTitle}>About</b>
             <p className={s.about}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-              obcaecati nostrum. Officiis adipisci illum sint ullam quos totam,
-              recusandae repellendus itaque quae, in accusamus nulla odio
-              aliquam, consectetur atque ex.
+              This application is a food delivery service, you can choose the
+              dishes you need from the proposed collection. The design was
+              created following the example from Figma. The home page has an
+              attractive slider implemented using the Swiper library. The
+              application is written in vanilla Javascript and designed using
+              the SCSS preprocessor. Registration is not implemented, the button
+              is made only for visibility, in order to practice making forms and
+              modal windows. The layout is adaptive, and the application is
+              available on all devices, which is very convenient, because the
+              user wants to order food from the device on which it is convenient
+              for him to do so.
             </p>
             <b className={s.aboutTitle}>Technologies:</b>
             <ul className={s.techList}>
-              <li className={s.techItem}>React</li>
-              <li className={s.techItem}>React</li>
-              <li className={s.techItem}>React</li>
+              <li className={s.techItem}>JavaScript</li>
+              <li className={s.techItem}>SCSS</li>
+              <li className={s.techItem}>Figma</li>
+              <li className={s.techItem}>Swiper</li>
+              <li className={s.techItem}>HTML</li>
+              <li className={s.techItem}>Adaptive Layout</li>
             </ul>
           </>
         )}
@@ -212,16 +222,26 @@ const ProjectPage = ({ title }) => {
             </div>
             <b className={s.aboutTitle}>About</b>
             <p className={s.about}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-              obcaecati nostrum. Officiis adipisci illum sint ullam quos totam,
-              recusandae repellendus itaque quae, in accusamus nulla odio
-              aliquam, consectetur atque ex.
+              This application allows the user to find a lot of high quality
+              pictures for a written query. You can simply enter any query into
+              the input and see the pictures offered for it. The pictures are
+              arranged in an attractive list, when you click on each, a modal
+              window opens and the user can look at the image closer. I used
+              Rest API Pixabay API. This is my first good React application,
+              made first on class components, and then refactored to functional,
+              using UserState and UserEffect hooks for server requests. While we
+              are waiting for a response from the server, a simple harmonious
+              loader is shown at the end of the list. At the bottom of the page
+              there is a button for simple pagination, for requesting the next
+              portion of images on a previously made request. The application
+              has an entertainment purpose, you can browse and relax.
             </p>
             <b className={s.aboutTitle}>Technologies:</b>
             <ul className={s.techList}>
               <li className={s.techItem}>React</li>
-              <li className={s.techItem}>React</li>
-              <li className={s.techItem}>React</li>
+              <li className={s.techItem}>CSS Modules</li>
+              <li className={s.techItem}>JavaScript</li>
+              <li className={s.techItem}>Pixabay API</li>
             </ul>
           </>
         )}
@@ -247,16 +267,20 @@ const ProjectPage = ({ title }) => {
             </div>
             <b className={s.aboutTitle}>About</b>
             <p className={s.about}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-              obcaecati nostrum. Officiis adipisci illum sint ullam quos totam,
-              recusandae repellendus itaque quae, in accusamus nulla odio
-              aliquam, consectetur atque ex.
+              This is a landing page for a web studio. Clean, semantic layout,
+              adaptive for three devices (mobile phone, tablet, PC). Adaptation
+              with media queries, mobile first. There are two pages, two html
+              documents, about the studio and a portfolio of works. There is
+              work with forms, svg icons (I used the Icon Moon service), simple
+              but attractive animations. The application is styled using the
+              SCSS preprocessor. I created a layout based on a model from Figma.
             </p>
             <b className={s.aboutTitle}>Technologies:</b>
             <ul className={s.techList}>
-              <li className={s.techItem}>React</li>
-              <li className={s.techItem}>React</li>
-              <li className={s.techItem}>React</li>
+              <li className={s.techItem}>HTML</li>
+              <li className={s.techItem}>SCSS</li>
+              <li className={s.techItem}>Adaptive layout</li>
+              <li className={s.techItem}>Figma</li>
             </ul>
           </>
         )}
