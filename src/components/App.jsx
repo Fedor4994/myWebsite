@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Blog from 'views/Blog/Blog';
 import Contacts from 'views/Contacts/Contacts';
 import Home from 'views/Home/Home';
+import PostPage from 'views/PostPage/PostPage';
 import Profile from 'views/Profile/Profile';
 import ProjectPage from 'views/ProjectPage/ProjectPage';
 import Projects from 'views/Projects/Projects';
@@ -37,6 +38,8 @@ export const App = () => {
         element={<ProjectPage title="Web Studio" />}
       />
       <Route path="blog" element={<Blog />} />
+      <Route path="blog/post/:data" element={<PostPage />} />
+
       <Route path="contact" element={<Contacts />} />
     </Routes>
   );

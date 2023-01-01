@@ -1,8 +1,6 @@
-.blog {
+.post {
   display: flex;
   flex-direction: column;
-
-  gap: 20px;
   padding: 35px 15px;
 }
 
@@ -11,18 +9,21 @@
   border-bottom: 1px solid #ccc;
   padding-bottom: 15px;
   margin-bottom: 10px;
-  font-size: 40px;
+  font-size: 26px;
   color: #222;
 }
 
-.blogList {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.data {
+  color: #828282;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 1280px) {
-  .blog {
+  .post {
     padding: 35px 320px;
+  }
+
+  .title {
+    font-size: 40px;
   }
 }

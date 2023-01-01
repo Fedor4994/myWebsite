@@ -184,10 +184,7 @@ const ProjectPage = ({ title }) => {
               application is written in vanilla Javascript and designed using
               the SCSS preprocessor. Registration is not implemented, the button
               is made only for visibility, in order to practice making forms and
-              modal windows. The layout is adaptive, and the application is
-              available on all devices, which is very convenient, because the
-              user wants to order food from the device on which it is convenient
-              for him to do so.
+              modal windows.
             </p>
             <b className={s.aboutTitle}>Technologies:</b>
             <ul className={s.techList}>
@@ -196,7 +193,6 @@ const ProjectPage = ({ title }) => {
               <li className={s.techItem}>Figma</li>
               <li className={s.techItem}>Swiper</li>
               <li className={s.techItem}>HTML</li>
-              <li className={s.techItem}>Adaptive Layout</li>
             </ul>
           </>
         )}

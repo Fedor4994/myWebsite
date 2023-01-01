@@ -29,14 +29,14 @@ const Projects = () => {
             path="/projects/filmoteka"
           />
           <Project
-            poster={deliveryfood}
-            title="Delivery Food"
-            path="/projects/deliveryfood"
-          />
-          <Project
             poster={webstudio}
             title="Web Studio"
             path="/projects/webstudio"
+          />
+          <Project
+            poster={deliveryfood}
+            title="Delivery Food"
+            path="/projects/deliveryfood"
           />
           <Project
             poster={imagefinder}
