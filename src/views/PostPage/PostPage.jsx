@@ -18,15 +18,15 @@ const PostPage = () => {
             start a new life? Although it’s a cliché, our life changes at the
             moment of decision, and January 1st is a great date to make powerful
             decisions🔥 <br />
-            <br /> I made decisions to start doing, doing, doing every day a
-            little better, because despite the fact that I`m and now moving in
-            the direction I need, but the path is not at all perfect, adding
-            some kind of extra point, extra strength to the routine, creating a
-            new habit or killing an old one, due to regularity, you can get
-            unexpectedly powerful extra results. For example, if you read only
-            half an hour every day, then in a year you will have an average of
-            36 books read, and you can already develop this idea in all sorts of
-            ways😉 <br /> <br />
+            <br /> I made decisions to start doing every day a little better,
+            because despite the fact that I`m already moving in the direction I
+            need, but the path is not at all perfect, adding some kind of extra
+            point, extra strength to the routine, creating a new habit or
+            killing an old one, due to regularity, you can get unexpectedly
+            powerful extra results. For example, if you read only half an hour
+            every day, then in a year you will have an average of 36 books read,
+            and you can already develop this idea in all sorts of ways😉 <br />{' '}
+            <br />
             Let 2023 be a year of investing in yourself to acquire wisdom, which
             will be the key everything we want from life.
           </p>

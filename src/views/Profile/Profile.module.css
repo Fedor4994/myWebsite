@@ -32,6 +32,11 @@
   margin-bottom: 20px;
 }
 
+.link {
+  color: #1756a9;
+  font-weight: 700;
+}
+
 @media screen and (min-width: 768px) {
   .profilePhoto {
     width: 30%;

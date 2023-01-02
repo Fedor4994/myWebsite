@@ -36,7 +36,7 @@ const Tooling = () => {
         </li>
         <li className={s.tool}>
           <FaSass color="#00c6ed" size={45} />
-          SCSS
+          SASS
         </li>
         <li className={s.tool}>
           <FaGitAlt color="#00c6ed" size={45} />

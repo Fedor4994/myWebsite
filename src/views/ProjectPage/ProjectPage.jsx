@@ -101,7 +101,7 @@ const ProjectPage = ({ title }) => {
               <li className={s.techItem}>JavaScript</li>
               <li className={s.techItem}>TMDB API</li>
               <li className={s.techItem}>React Router</li>
-              <li className={s.techItem}>Adaptive Layout</li>
+              <li className={s.techItem}>Responsive Layout</li>
             </ul>
           </>
         )}
@@ -136,7 +136,7 @@ const ProjectPage = ({ title }) => {
               popularity at the moment, or find a movie you've heard about, look
               at a short info about it, and decide if you want to add it to your
               movie collection. The application is written in vanilla
-              Javascript, and styled using the SCSS preprocessor. I tried to
+              Javascript, and styled using the SASS preprocessor. I tried to
               create a kind of SPA application, but still it cannot be fully
               implemented on vanilla JS, because there are no pages and
               interaction with the address bar, in the case of the Filmoteka, I
@@ -147,11 +147,11 @@ const ProjectPage = ({ title }) => {
             <b className={s.aboutTitle}>Technologies:</b>
             <ul className={s.techList}>
               <li className={s.techItem}>JavaScript</li>
-              <li className={s.techItem}>SCSS</li>
+              <li className={s.techItem}>SASS</li>
               <li className={s.techItem}>Firebase</li>
               <li className={s.techItem}>TMDB API</li>
               <li className={s.techItem}>HTML</li>
-              <li className={s.techItem}>Adaptive Layout</li>
+              <li className={s.techItem}>Responsive Layout</li>
             </ul>
           </>
         )}
@@ -182,14 +182,14 @@ const ProjectPage = ({ title }) => {
               created following the example from Figma. The home page has an
               attractive slider implemented using the Swiper library. The
               application is written in vanilla Javascript and designed using
-              the SCSS preprocessor. Registration is not implemented, the button
+              the SASS preprocessor. Registration is not implemented, the button
               is made only for visibility, in order to practice making forms and
               modal windows.
             </p>
             <b className={s.aboutTitle}>Technologies:</b>
             <ul className={s.techList}>
               <li className={s.techItem}>JavaScript</li>
-              <li className={s.techItem}>SCSS</li>
+              <li className={s.techItem}>SASS</li>
               <li className={s.techItem}>Figma</li>
               <li className={s.techItem}>Swiper</li>
               <li className={s.techItem}>HTML</li>
@@ -269,13 +269,13 @@ const ProjectPage = ({ title }) => {
               documents, about the studio and a portfolio of works. There is
               work with forms, svg icons (I used the Icon Moon service), simple
               but attractive animations. The application is styled using the
-              SCSS preprocessor. I created a layout based on a model from Figma.
+              SASS preprocessor. I created a layout based on a model from Figma.
             </p>
             <b className={s.aboutTitle}>Technologies:</b>
             <ul className={s.techList}>
               <li className={s.techItem}>HTML</li>
-              <li className={s.techItem}>SCSS</li>
-              <li className={s.techItem}>Adaptive layout</li>
+              <li className={s.techItem}>SASS</li>
+              <li className={s.techItem}>Responsive layout</li>
               <li className={s.techItem}>Figma</li>
             </ul>
           </>

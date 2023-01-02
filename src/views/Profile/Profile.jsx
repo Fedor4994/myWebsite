@@ -12,20 +12,37 @@ const Profile = () => {
         <img className={s.profilePhoto} src={profilePhoto} alt="profile" />
         <div className={s.about}>
           <h2 className={s.me}>
-            I'm a front-end developer located in Ukraine.
+            I'm an 18 year old front-end developer located in Ukraine.
           </h2>
 
           <p>
-            At the moment of my life, programming is the main occupation, where
-            I use all my time to get new information. Ready to learn the
-            technologies you need, and develop with you. At this stage, I am
-            looking for a company not so much for the financial component, but
-            for professional growth as a developer. The quickest way to contact
-            me would be through&nbsp;
-            <a href="https://t.me/TrySigma" target="_blank" rel="noreferrer">
+            I am looking for a full-time position in a friendly company to
+            cooperate for a long time. I have knowledge of HTML, CSS,
+            JavaScript, and React. I am a fast learner, responsible, and ready
+            for challenging tasks. At the moment of my life, programming is the
+            main occupation, where I use all my time to get new information.
+            Ready to learn the technologies you need, and develop with you. At
+            this stage, I am looking for a company not so much for the financial
+            component, but for professional growth as a developer. The quickest
+            way to contact me would be through&nbsp;
+            <a
+              className={s.link}
+              href="https://t.me/TrySigma"
+              target="_blank"
+              rel="noreferrer"
+            >
               Telegram.&nbsp;
             </a>
-            I can also be reached by other resume contact information.
+            I can also be reached by other{' '}
+            <a
+              className={s.link}
+              href="https://drive.google.com/file/d/1lQf5EsvNePJp6cZ5b5oGK2PD1G-9r88F/view?usp=share_link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              resume&nbsp;
+            </a>
+            contact information.
           </p>
         </div>
         <Tooling />
