@@ -27,7 +27,7 @@ const Profile = () => {
             way to contact me would be through&nbsp;
             <a
               className={s.link}
-              href="https://t.me/TrySigma"
+              href="https://t.me/FedorSosnin"
               target="_blank"
               rel="noreferrer"
             >
@@ -36,7 +36,7 @@ const Profile = () => {
             I can also be reached by other{' '}
             <a
               className={s.link}
-              href="https://drive.google.com/file/d/1j_s3GSdL44khCcUidCl659V69iYfrQUx/view?usp=share_link"
+              href="https://drive.google.com/file/d/1jSJpUwrVTceGkcvp9VXtBLM9Y6iIvRW3/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >

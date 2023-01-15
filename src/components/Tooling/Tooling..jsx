@@ -5,7 +5,7 @@ import {
   SiHtml5,
   SiCss3,
   SiGithub,
-  SiFigma,
+  SiTypescript,
 } from 'react-icons/si';
 import { RiReactjsLine } from 'react-icons/ri';
 import { FaSass, FaGitAlt } from 'react-icons/fa';
@@ -17,6 +17,10 @@ const Tooling = () => {
         <li className={s.tool}>
           <SiJavascript color="#00c6ed" size={40} />
           JavaScript
+        </li>
+        <li className={s.tool}>
+          <SiTypescript color="#00c6ed" size={40} />
+          TypeScript
         </li>
         <li className={s.tool}>
           <RiReactjsLine color="#00c6ed" size={45} />
@@ -45,10 +49,6 @@ const Tooling = () => {
         <li className={s.tool}>
           <SiGithub color="#00c6ed" size={40} />
           GitHub
-        </li>
-        <li className={s.tool}>
-          <SiFigma color="#00c6ed" size={40} />
-          Figma
         </li>
       </ul>
     </div>

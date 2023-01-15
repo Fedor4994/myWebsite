@@ -10,7 +10,7 @@ const Contacts = () => {
           The quickest way to contact me would be through&nbsp;
           <a
             className={s.link}
-            href="https://t.me/TrySigma"
+            href="https://t.me/FedorSosnin"
             target="_blank"
             rel="noreferrer"
           >
