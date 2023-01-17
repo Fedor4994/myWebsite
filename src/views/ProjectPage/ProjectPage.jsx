@@ -6,6 +6,84 @@ const ProjectPage = ({ title }) => {
     <Layout>
       <section className={s.profile}>
         <p className={s.title}>{title}</p>
+        {title === 'Space News' && (
+          <>
+            <div className={s.buttonWrapper}>
+              <a
+                href="https://github.com/Fedor4994/news-test"
+                target="_blank"
+                rel="noreferrer"
+                className={s.sourceButton}
+              >
+                View Source Code
+              </a>
+              <a
+                href="https://space-news-fsv.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className={s.sourceButton}
+              >
+                View In Action!
+              </a>
+            </div>
+            <b className={s.aboutTitle}>About</b>
+            <p className={s.about}>
+              This application allows you to follow the most relevant and
+              interesting news about space. My most up-to-date technology stack
+              is used, everything is typified, the ReduxToolkit is configured. A
+              website with a responsive layout. Used the Material UI to create
+              my application's interface.
+            </p>
+            <b className={s.aboutTitle}>Technologies:</b>
+            <ul className={s.techList}>
+              <li className={s.techItem}>React</li>
+              <li className={s.techItem}>TypeScript</li>
+              <li className={s.techItem}>Spaceflight API</li>
+              <li className={s.techItem}>Redux Toolkit</li>
+              <li className={s.techItem}>Redux Thunk</li>
+              <li className={s.techItem}>Material UI</li>
+            </ul>
+          </>
+        )}
+        {title === 'GitHub Searcher' && (
+          <>
+            <div className={s.buttonWrapper}>
+              <a
+                href="https://github.com/Fedor4994/GitHub-Searcher"
+                target="_blank"
+                rel="noreferrer"
+                className={s.sourceButton}
+              >
+                View Source Code
+              </a>
+              <a
+                href="https://github-searcher-fsv.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className={s.sourceButton}
+              >
+                View In Action!
+              </a>
+            </div>
+            <b className={s.aboutTitle}>About</b>
+            <p className={s.about}>
+              This application allows you to find any GitHub user. There is a
+              light theme and a dark theme implemented using styles in the
+              :global block in SCSS modules. Website with adaptive layout. Used
+              the sass preprocessor to simplify styling my app. Thanks to it and
+              the presence of TypeScript, it makes the application highly
+              scalable.
+            </p>
+            <b className={s.aboutTitle}>Technologies:</b>
+            <ul className={s.techList}>
+              <li className={s.techItem}>React</li>
+              <li className={s.techItem}>TypeScript</li>
+              <li className={s.techItem}>GitHub API</li>
+              <li className={s.techItem}>SCSS</li>
+              <li className={s.techItem}>Responsive Layout</li>
+            </ul>
+          </>
+        )}
         {title === 'Phonebook' && (
           <>
             <div className={s.buttonWrapper}>

@@ -8,6 +8,7 @@ const Blog = () => {
       <section className={s.blog}>
         <p className={s.title}>Posts:</p>
         <ul className={s.blogList}>
+          <PostLink data="Jan 17, 2023" title="My first test task" />
           <PostLink
             data="Jan 1, 2023"
             title="The beginning of the best year in the life"

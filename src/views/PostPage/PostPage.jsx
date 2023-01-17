@@ -7,6 +7,41 @@ const PostPage = () => {
 
   return (
     <Layout>
+      {data === 'Jan 17, 2023' && (
+        <section className={s.post}>
+          <h1 className={s.title}>My first test task</h1>
+          <p className={s.data}>{data}</p>
+          <p className={s.text}>
+            Since the beginning of this year, I continued to learn TypeScript
+            diligently and, of course, respond to vacancies, look for a job as a
+            Front End developer (now I continue the same way, but I'm almost
+            done). <br />
+            <br /> Gradually, every day, I became more and more comfortable
+            doing this. And so, on January 9, I received the first relatively
+            positive response from a company, a company called Codebridge, they
+            answered on the email and asked for additional information about
+            themselves. I provided, and already on January 10, late in the
+            evening, they answered me again and asked me to complete a test
+            task! This was already a great joy and a breakthrough for me, I can
+            imagine what emotions I will have when some company call me for the
+            first interview, and there is already the first job as a developer.
+            <br />
+            <br />
+            In general, the deadline was 5 days, but I had to invest in 4,
+            because on the 5th day I had already bought tickets for the train to
+            Lviv, I went there for a couple of days for a friend's birthday. The
+            test was not really difficult, but I really liked that I was able to
+            use my fresh knowledge of TypeScript, and also learn the Material UI
+            from scratch! Really, how many times I didn't force myself, I didn't
+            manage to take on this library, and as soon as I saw the requirement
+            to use it in the test, all doubts immediately disappeared. <br />
+            <br /> The conclusion is that I need to continue to search hard for
+            a work, because then you see what specific things you need to learn
+            in this unit of time, and what specific practical application you
+            can give to your studies. It's a very cool feeling.
+          </p>
+        </section>
+      )}
       {data === 'Jan 1, 2023' && (
         <section className={s.post}>
           <h1 className={s.title}>

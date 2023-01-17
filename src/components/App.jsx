@@ -14,6 +14,14 @@ export const App = () => {
       <Route path="profile" element={<Profile />} />
       <Route path="projects" element={<Projects />} />
       <Route
+        path="projects/spacenews"
+        element={<ProjectPage title="Space News" />}
+      />
+      <Route
+        path="projects/githubsearcher"
+        element={<ProjectPage title="GitHub Searcher" />}
+      />
+      <Route
         path="projects/phonebook"
         element={<ProjectPage title="Phonebook" />}
       />

@@ -7,12 +7,24 @@ import deliveryfood from './images/deliveryfood.png';
 import filmoteka from './images/FIlmoteka.png';
 import moviemania from './images/moviemania.png';
 import phonebook from './images/phonebook.png';
+import news from './images/news.png';
+import githubsearcher from './images/githubsearcher.png';
 const Projects = () => {
   return (
     <Layout>
       <section className={s.projects}>
         <p className={s.title}>Projects</p>
         <ul className={s.projectsList}>
+          <Project
+            poster={news}
+            title="Space News"
+            path="/projects/spacenews"
+          />
+          <Project
+            poster={githubsearcher}
+            title="GitHub Searcher"
+            path="/projects/githubsearcher"
+          />
           <Project
             poster={phonebook}
             title="Phonebook"
