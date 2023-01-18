@@ -18,7 +18,7 @@ const Profile = () => {
           <p>
             I am looking for a full-time position in a friendly company to
             cooperate for a long time. I have knowledge of HTML, CSS,
-            JavaScript, and React. I am a fast learner, responsible, and ready
+            JavaScript, TypeScript and React. I am a fast learner, responsible, and ready
             for challenging tasks. At the moment of my life, programming is the
             main occupation, where I use all my time to get new information.
             Ready to learn the technologies you need, and develop with you. At
