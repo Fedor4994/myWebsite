@@ -16,6 +16,11 @@ const Projects = () => {
         <p className={s.title}>Projects</p>
         <ul className={s.projectsList}>
           <Project
+            poster={phonebook}
+            title="Phonebook"
+            path="/projects/phonebook"
+          />
+          <Project
             poster={news}
             title="Space News"
             path="/projects/spacenews"
@@ -24,11 +29,6 @@ const Projects = () => {
             poster={githubsearcher}
             title="GitHub Searcher"
             path="/projects/githubsearcher"
-          />
-          <Project
-            poster={phonebook}
-            title="Phonebook"
-            path="/projects/phonebook"
           />
           <Project
             poster={moviemania}

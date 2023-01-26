@@ -7,6 +7,43 @@ const PostPage = () => {
 
   return (
     <Layout>
+      {data === 'Jan 26, 2023' && (
+        <section className={s.post}>
+          <h1 className={s.title}>Getting Started with NodeJS</h1>
+          <p className={s.data}>{data}</p>
+          <p className={s.text}>
+            So the time has come, after 8 months of study, when I can say that I
+            am good enough in the frontend (good enough to work on a commercial
+            basis), the last step was the transfer of my phone book to
+            TypeScript. P. s. the technology as for me now, is the coolest there
+            😎
+            <br />
+            <br />
+            But of course, I have too little experience to easily get a job, my
+            level is trainee/junior, so the demand for me is not big yet, but
+            the question of work will become critical for me when I lose my
+            workflow , that is, masthead technologies that I have to learn are
+            still in my way, so now I kind of work too, and, accordingly, I am
+            very productive (this is how it works with me😇) I always have to
+            move towards something that inspires me.
+            <br />
+            <br />
+            Let's finally move on to the topic of the post, it's time to take on
+            the backend, and of course this is Node JS. I've just started, and
+            so far for me it's just a javascript runtime where I can work with
+            the file system, and write the simplest CLI application. And then, I
+            just learned about it all today, and I still don’t fully understand
+            how, for example, the Commander works, but I plan to study 2 courses
+            at once, so there should be enough information, the main thing is
+            not to forget to read the docks📚
+            <br />
+            <br />
+            In general, I have high hopes for Node JS, because I think I'll
+            should love the development of the backend, maybe even more than the
+            frontend🤓 I'm doing my best, and of course I'll keep you informed.
+          </p>
+        </section>
+      )}
       {data === 'Jan 17, 2023' && (
         <section className={s.post}>
           <h1 className={s.title}>My first test task</h1>

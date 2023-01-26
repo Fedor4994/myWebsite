@@ -117,15 +117,15 @@ const ProjectPage = ({ title }) => {
               application, minimalistic, but at the same time beautiful and
               attractive. Data about users and their private collections is
               stored and processed on the Connections API backend. I developed
-              the client side, made requests to the server and rendered the UI.
+              the client side of the application with TypeScript.
             </p>
             <b className={s.aboutTitle}>Technologies:</b>
             <ul className={s.techList}>
               <li className={s.techItem}>React</li>
+              <li className={s.techItem}>TypeScript</li>
               <li className={s.techItem}>Connections API</li>
               <li className={s.techItem}>Redux</li>
               <li className={s.techItem}>Redux Thunk</li>
-              <li className={s.techItem}>JavaScript</li>
               <li className={s.techItem}>CSS Modules</li>
             </ul>
           </>
