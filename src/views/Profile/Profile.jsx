@@ -12,7 +12,7 @@ const Profile = () => {
         <img className={s.profilePhoto} src={profilePhoto} alt="profile" />
         <div className={s.about}>
           <h2 className={s.me}>
-            I'm an 18 year old front-end developer located in Ukraine.
+            I'm an 18 year old full stack web developer located in Ukraine.
           </h2>
 
           <p>
