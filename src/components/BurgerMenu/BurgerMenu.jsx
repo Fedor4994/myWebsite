@@ -81,7 +81,7 @@ const BurgerMenu = () => {
           </a>
           <a
             className={s.navLink}
-            href="https://drive.google.com/file/d/1jSJpUwrVTceGkcvp9VXtBLM9Y6iIvRW3/view?usp=sharing"
+            href="https://drive.google.com/file/d/1EWE0iCa7unsX5F1LXEJC-wsjJ_To9bHi/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >

@@ -36,7 +36,7 @@ const Contacts = () => {
           , and other&nbsp;
           <a
             className={s.link}
-            href="https://drive.google.com/file/d/1j_s3GSdL44khCcUidCl659V69iYfrQUx/view?usp=share_link"
+            href="https://drive.google.com/file/d/1EWE0iCa7unsX5F1LXEJC-wsjJ_To9bHi/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >

@@ -6,6 +6,9 @@ import {
   SiCss3,
   SiGithub,
   SiTypescript,
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
 } from 'react-icons/si';
 import { RiReactjsLine } from 'react-icons/ri';
 import { FaSass, FaGitAlt } from 'react-icons/fa';
@@ -41,6 +44,18 @@ const Tooling = () => {
         <li className={s.tool}>
           <FaSass color="#00c6ed" size={45} />
           SASS
+        </li>
+        <li className={s.tool}>
+          <SiNodedotjs color="#00c6ed" size={40} />
+          Node.js
+        </li>
+        <li className={s.tool}>
+          <SiExpress color="#00c6ed" size={40} />
+          Express
+        </li>
+        <li className={s.tool}>
+          <SiMongodb color="#00c6ed" size={40} />
+          MongoDB
         </li>
         <li className={s.tool}>
           <FaGitAlt color="#00c6ed" size={45} />

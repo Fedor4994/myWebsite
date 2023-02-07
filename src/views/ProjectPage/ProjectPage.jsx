@@ -123,7 +123,9 @@ const ProjectPage = ({ title }) => {
             <ul className={s.techList}>
               <li className={s.techItem}>React</li>
               <li className={s.techItem}>TypeScript</li>
-              <li className={s.techItem}>Connections API</li>
+              <li className={s.techItem}>Node.js</li>
+              <li className={s.techItem}>Express</li>
+              <li className={s.techItem}>MongoDB</li>
               <li className={s.techItem}>Redux</li>
               <li className={s.techItem}>Redux Thunk</li>
               <li className={s.techItem}>CSS Modules</li>

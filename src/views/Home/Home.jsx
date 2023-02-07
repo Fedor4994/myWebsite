@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className={s.home}>
       <Logo width={250} height={250} big />
-      <p className={s.prof}>FRONTEND DEVELOPER</p>
+      <p className={s.prof}>FULL STACK WEB DEVELOPER</p>
       <div className={s.socialLinks}>
         <a
           className={s.socialLink}
@@ -63,7 +63,7 @@ const Home = () => {
           <div className={s.blackBorder}>
             <a
               className={s.navLink}
-              href="https://drive.google.com/file/d/1jSJpUwrVTceGkcvp9VXtBLM9Y6iIvRW3/view?usp=sharing"
+              href="https://drive.google.com/file/d/1EWE0iCa7unsX5F1LXEJC-wsjJ_To9bHi/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
