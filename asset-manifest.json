@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/myWebsite/static/css/main.4d20561a.css",
-    "main.js": "/myWebsite/static/js/main.b2e770b6.js",
-    "static/media/imagefinder.png": "/myWebsite/static/media/imagefinder.bbed226ee39d8680fa3e.png",
+    "main.js": "/myWebsite/static/js/main.4174abaa.js",
     "static/media/moviemania.png": "/myWebsite/static/media/moviemania.6c0d14bb581e3ca6e4c1.png",
     "static/media/FIlmoteka.png": "/myWebsite/static/media/FIlmoteka.e6986e6906163d34c7c6.png",
     "static/media/webstudio.png": "/myWebsite/static/media/webstudio.2d3e1112a00ad7cbef85.png",
@@ -11,12 +10,13 @@
     "static/media/phonebook.png": "/myWebsite/static/media/phonebook.62e7a4a20ba94eee84cb.png",
     "static/media/githubsearcher.png": "/myWebsite/static/media/githubsearcher.a7113a6a28763611c58d.png",
     "static/media/avatar.jpeg": "/myWebsite/static/media/avatar.facd04ef8c917bbb0e1f.jpeg",
+    "static/media/typemania.png": "/myWebsite/static/media/typemania.ba00b67b1113d1f384f0.png",
     "index.html": "/myWebsite/index.html",
     "main.4d20561a.css.map": "/myWebsite/static/css/main.4d20561a.css.map",
-    "main.b2e770b6.js.map": "/myWebsite/static/js/main.b2e770b6.js.map"
+    "main.4174abaa.js.map": "/myWebsite/static/js/main.4174abaa.js.map"
   },
   "entrypoints": [
     "static/css/main.4d20561a.css",
-    "static/js/main.b2e770b6.js"
+    "static/js/main.4174abaa.js"
   ]
 }
