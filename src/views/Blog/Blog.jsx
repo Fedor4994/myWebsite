@@ -8,6 +8,7 @@ const Blog = () => {
       <section className={s.blog}>
         <p className={s.title}>Posts:</p>
         <ul className={s.blogList}>
+          <PostLink data="Mar 20, 2023" title="The biggest app I ever made" />
           <PostLink data="Jan 26, 2023" title="Getting Started with NodeJS" />
           <PostLink data="Jan 17, 2023" title="My first test task" />
           <PostLink

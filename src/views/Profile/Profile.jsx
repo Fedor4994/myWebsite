@@ -12,7 +12,7 @@ const Profile = () => {
         <img className={s.profilePhoto} src={profilePhoto} alt="profile" />
         <div className={s.about}>
           <h2 className={s.me}>
-            I'm an 18 year old full stack web developer located in Ukraine.
+            I'm an 19 year old full stack web developer located in Ukraine.
           </h2>
 
           <p>
@@ -36,7 +36,7 @@ const Profile = () => {
             I can also be reached by other{' '}
             <a
               className={s.link}
-              href="https://drive.google.com/file/d/1EWE0iCa7unsX5F1LXEJC-wsjJ_To9bHi/view?usp=sharing"
+              href="https://drive.google.com/file/d/1cRYpnmEZ3Y0fw9I9ad4fzDmZCWyqxG7b/view?usp=share_link"
               target="_blank"
               rel="noreferrer"
             >

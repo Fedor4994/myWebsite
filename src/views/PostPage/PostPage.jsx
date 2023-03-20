@@ -7,6 +7,37 @@ const PostPage = () => {
 
   return (
     <Layout>
+      {data === 'Mar 20, 2023' && (
+        <section className={s.post}>
+          <h1 className={s.title}>The biggest app I ever made</h1>
+          <p className={s.data}>{data}</p>
+          <p className={s.text}>
+            So, let's start with the fact that my training in the basics of
+            Node.js has come to an end, during this time I have done a lot of
+            interesting things, and much more cool + functional than I did
+            before😎 <br />
+            <br /> But I want to pay special attention to my latest project,
+            called TypeMania (you can already find it in my portfolio of
+            projects on this site😉). This is a keyboard simulator, there are a
+            lot of similar ones on the Internet, but the trick is that I made
+            this one myself, and as for me, it is not inferior to others, both
+            in design and in functionality. To prove this, I honestly say that I
+            myself use my application, feeling the convenience and benefit no
+            worse than from others. <br />
+            <br />
+            This idea was crazy, I didn’t know where to start, where to look and
+            move, but time flies insanely fast, and with small steps, that’s
+            where I went, far far away. This project took me a little over a
+            month, I got acquainted with new cases and technologies🔥
+            <br />
+            <br /> Now I’m thinking of concentrating as much as possible on
+            finding a job, because I don’t have the strength and desire to take
+            on a new pet project yet, I have exhausted my creativity to the
+            maximum, I need to switch to something new🤓
+          </p>
+        </section>
+      )}
+
       {data === 'Jan 26, 2023' && (
         <section className={s.post}>
           <h1 className={s.title}>Getting Started with NodeJS</h1>

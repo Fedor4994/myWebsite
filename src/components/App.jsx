@@ -38,8 +38,8 @@ export const App = () => {
         element={<ProjectPage title="Delivery Food" />}
       />
       <Route
-        path="projects/imagefinder"
-        element={<ProjectPage title="Image Finder" />}
+        path="projects/typemania"
+        element={<ProjectPage title="Typemania" />}
       />
       <Route
         path="projects/webstudio"

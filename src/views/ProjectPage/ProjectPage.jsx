@@ -276,11 +276,11 @@ const ProjectPage = ({ title }) => {
             </ul>
           </>
         )}
-        {title === 'Image Finder' && (
+        {title === 'Typemania' && (
           <>
             <div className={s.buttonWrapper}>
               <a
-                href="https://github.com/Fedor4994/react-image-finder"
+                href="https://github.com/Fedor4994/typemania"
                 target="_blank"
                 rel="noreferrer"
                 className={s.sourceButton}
@@ -288,7 +288,7 @@ const ProjectPage = ({ title }) => {
                 View Source Code
               </a>
               <a
-                href="https://fedor4994.github.io/react-image-finder/"
+                href="https://typemania.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
                 className={s.sourceButton}
@@ -298,26 +298,26 @@ const ProjectPage = ({ title }) => {
             </div>
             <b className={s.aboutTitle}>About</b>
             <p className={s.about}>
-              This application allows the user to find a lot of high quality
-              pictures for a written query. You can simply enter any query into
-              the input and see the pictures offered for it. The pictures are
-              arranged in an attractive list, when you click on each, a modal
-              window opens and the user can look at the image closer. I used
-              Rest API Pixabay API. This is my first good React application,
-              made first on class components, and then refactored to functional,
-              using UserState and UserEffect hooks for server requests. While we
-              are waiting for a response from the server, a simple harmonious
-              loader is shown at the end of the list. At the bottom of the page
-              there is a button for simple pagination, for requesting the next
-              portion of images on a previously made request. The application
-              has an entertainment purpose, you can browse and relax.
+              Typemania is a minimalistic and customizable typing test. It
+              features many test modes, an account system to save your typing
+              speed history, and user-configurable features such as themes.
+              Typemania attempts to emulate the experience of natural keyboard
+              typing during a typing test, by unobtrusively presenting the text
+              prompts and displaying typed characters in-place, providing
+              straightforward, real-time feedback on typos, speed, and accuracy.
+              Test yourself in various modes, track your progress and improve
+              your speed.
             </p>
             <b className={s.aboutTitle}>Technologies:</b>
             <ul className={s.techList}>
               <li className={s.techItem}>React</li>
-              <li className={s.techItem}>CSS Modules</li>
-              <li className={s.techItem}>JavaScript</li>
-              <li className={s.techItem}>Pixabay API</li>
+              <li className={s.techItem}>Redux</li>
+              <li className={s.techItem}>Framer Motion</li>
+              <li className={s.techItem}>SCSS Modules</li>
+              <li className={s.techItem}>TypeScript</li>
+              <li className={s.techItem}>Node.js</li>
+              <li className={s.techItem}>Express</li>
+              <li className={s.techItem}>MongoDB</li>
             </ul>
           </>
         )}
